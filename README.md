@@ -1,8 +1,8 @@
 
-# SHOPZONE — Gold Edition
+# SHOPZONE
 
 <p align="center">
-  <strong>A premium, luxury e-commerce interface built around high contrast, functional client-side mechanics, and product-first UI design.</strong>
+  <strong>A premium, luxury e-commerce interface built around high contrast, functional client-side mechanics, and product first UI design.</strong>
 </p>
 
 <p align="center">
