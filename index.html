@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOPZONE — Gold Edition</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER $150 <span>•</span> NEW SEASON / 2026</div>
+
+  <header class="header">
+    <a class="logo" href="#">
+      <img src="./yellow-logo-only-with-black-blackground-remove-sho.jpg" alt="ShopZone Logo" class="logo-mark">
+      <span>SHOP<span>ZONE</span></span>
+    </a>
+
+    <div class="search">
+      <span>⌕</span>
+      <input id="search" type="search" placeholder="Search products..." autocomplete="off">
+      <kbd>⌘ K</kbd>
+    </div>
+
+    <nav>
+      <a href="#featured">Featured</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="wishlistBtn" class="header-btn">♡ <span>Wishlist</span><b id="wishCount">0</b></button>
+      <button class="header-btn profile">♙</button>
+      <button id="cartBtn" class="bag-btn">Bag <strong id="cartCount">0</strong></button>
+      <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="featured">
+      <div class="hero-copy">
+        <p class="eyebrow">THE GOLD STANDARD</p>
+        <h1>Objects with<br><em>presence.</em></h1>
+        <p class="hero-description">
+          Curated essentials for people who care about how things feel,
+          look, and work.
+        </p>
+        <a class="gold-btn" href="#shop">Explore collection <span>→</span></a>
+      </div>
+
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1400&q=90" alt="Luxury watch">
+        <div class="image-overlay"></div>
+        <div class="hero-number">01 / 04</div>
+        <div class="hero-caption">
+          <span>NEW ARRIVAL</span>
+          <strong>Obsidian Timepiece</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop" id="shop">
+      <div class="section-top">
+        <div>
+          <p class="eyebrow">SHOPZONE COLLECTION</p>
+          <h2>All products <small id="resultCount">12</small></h2>
+        </div>
+        <button class="filter-mobile" id="filterMobile">☷ Filters</button>
+      </div>
+
+      <div class="shop-layout">
+        <aside class="sidebar" id="sidebar">
+          <div class="sidebar-title">
+            <h3>Filters</h3>
+            <button id="clearBtn">Clear all</button>
+          </div>
+
+          <div class="filter-block">
+            <h4>Category</h4>
+            <label><input type="checkbox" class="category" value="Electronics"> Electronics</label>
+            <label><input type="checkbox" class="category" value="Apparel"> Apparel</label>
+            <label><input type="checkbox" class="category" value="Home"> Home</label>
+            <label><input type="checkbox" class="category" value="Accessories"> Accessories</label>
+            <label><input type="checkbox" class="category" value="Beauty"> Beauty</label>
+          </div>
+
+          <div class="filter-block">
+            <h4>Price range</h4>
+            <div class="range-labels"><span>$0</span><span id="priceLabel">$400</span></div>
+            <input id="price" type="range" min="0" max="400" value="400" step="10">
+          </div>
+
+          <div class="filter-block">
+            <h4>Rating</h4>
+            <label><input type="radio" name="rating" value="0" checked> Any rating</label>
+            <label><input type="radio" name="rating" value="5"> ★★★★★ <span>5 Stars</span></label>
+            <label><input type="radio" name="rating" value="4"> ★★★★☆ <span>4 Stars</span></label>
+          </div>
+
+          <div class="filter-block">
+            <h4>Availability</h4>
+            <label><input type="checkbox" id="stockFilter"> In stock only</label>
+            <label><input type="checkbox" id="featuredFilter"> Featured only</label>
+          </div>
+        </aside>
+
+        <section class="products-area">
+          <div class="toolbar">
+            <span id="showing">Showing 12 products</span>
+            <select id="sort">
+              <option value="all">Everything</option>
+              <option value="low">Price: Low to High</option>
+              <option value="high">Price: High to Low</option>
+              <option value="rating">Highest Rated</option>
+            </select>
+          </div>
+
+          <div class="product-grid" id="productGrid"></div>
+
+          <div class="empty" id="empty" hidden>
+            <div>◇</div>
+            <h3>No products found</h3>
+            <p>Try changing your filters or search term.</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Trusted Brands Section -->
+    <section class="trust-bar">
+      <p class="eyebrow">FEATURED IN & TRUSTED BY GLOBAL BRANDS</p>
+      <div class="brand-logos">
+        <div class="brand-item">
+          <svg viewBox="0 0 100 30" class="brand-svg"><text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="'Playfair Display', serif" font-weight="700" font-size="18" fill="currentColor" letter-spacing="4">CHANEL</text></svg>
+        </div>
+        <div class="brand-item">
+          <svg viewBox="0 0 100 30" class="brand-svg"><text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="'Playfair Display', serif" font-weight="700" font-size="18" fill="currentColor" letter-spacing="4">GUCCI</text></svg>
+        </div>
+        <div class="brand-item">
+          <svg viewBox="0 0 100 30" class="brand-svg"><text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="'Playfair Display', serif" font-weight="700" font-size="18" fill="currentColor" letter-spacing="5">ROLEX</text></svg>
+        </div>
+        <div class="brand-item">
+          <svg viewBox="0 0 100 30" class="brand-svg"><text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="'Playfair Display', serif" font-weight="700" font-size="18" fill="currentColor" letter-spacing="4">PRADA</text></svg>
+        </div>
+        <div class="brand-item">
+          <svg viewBox="0 0 100 30" class="brand-svg"><text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="'DM Sans', sans-serif" font-weight="800" font-size="16" fill="currentColor" letter-spacing="3">VOGUE</text></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story / About Section -->
+    <section class="story" id="about">
+      <div>
+        <p class="eyebrow">WHY SHOPZONE</p>
+        <h2>Less noise.<br><em>More character.</em></h2>
+      </div>
+      <p>
+        A premium commerce experience built around clarity,
+        strong hierarchy, product-first interactions and a restrained
+        black-and-gold visual language.
+      </p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="section-title">
+        <p class="eyebrow">CLIENT REVIEWS</p>
+        <h2>What people say.</h2>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Alex Vance" class="avatar-img">
+            <div class="user-meta">
+              <strong>Alex Vance</strong>
+              <span>Verified Buyer</span>
+            </div>
+          </div>
+          <div class="rating"><span class="stars-gold">★★★★★</span></div>
+          <p>"The obsidian watch is easily the cleanest accessory I own. The attention to detail is remarkable."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80" alt="Elena Rostova" class="avatar-img">
+            <div class="user-meta">
+              <strong>Elena Rostova</strong>
+              <span>Verified Buyer</span>
+            </div>
+          </div>
+          <div class="rating"><span class="stars-gold">★★★★★</span></div>
+          <p>"Shipping was incredibly fast and the packaging felt like unboxing pure luxury."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Marcus Chen" class="avatar-img">
+            <div class="user-meta">
+              <strong>Marcus Chen</strong>
+              <span>Verified Buyer</span>
+            </div>
+          </div>
+          <div class="rating"><span class="stars-gold">★★★★★</span></div>
+          <p>"ShopZone lives up to the standard. Premium quality, zero compromise on aesthetics."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Redesigned Concierge Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <div class="contact-header">
+          <p class="eyebrow">CLIENT CONCIERGE</p>
+          <h2>Let's connect.</h2>
+          <p class="contact-subtitle">Experience dedicated support, private consultations, and global white-glove service.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="concierge-card">
+            <div class="card-icon">◈</div>
+            <h3>VIP Concierge</h3>
+            <p>Immediate assistance with orders, bespoke inquiries, and personal shopping recommendations.</p>
+            <a href="mailto:support@shopzone.com" class="contact-link">ahmedkhubaib41@gmail.com</a>
+          </div>
+
+          <div class="concierge-card">
+            <div class="card-icon">❖</div>
+            <h3>Direct Hotline</h3>
+            <p>Available Monday through Sunday, 8:00 AM – 10:00 PM EST for urgent assistance.</p>
+            <a href="tel:+18005550199" class="contact-link">+995 574 446 749</a>
+          </div>
+
+          <div class="concierge-card">
+            <div class="card-icon">✦</div>
+            <h3>Flagship Boutique</h3>
+            <p>Cavea sabartualo mall, Delisi</p>
+            <span class="hours">Open Daily: 10:00 AM – 8:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Shopping Cart Drawer -->
+  <aside class="cart" id="cart">
+    <div class="cart-head">
+      <div>
+        <p class="eyebrow">YOUR BAG</p>
+        <h2>Shopping cart <small id="drawerCount">0</small></h2>
+      </div>
+      <button id="closeCart">×</button>
+    </div>
+
+    <div class="cart-list" id="cartList"></div>
+
+    <div class="cart-empty" id="cartEmpty">
+      <div>◈</div>
+      <h3>Your bag is empty</h3>
+      <p>Add something you love.</p>
+    </div>
+
+    <div class="cart-footer">
+      <div><span>Subtotal</span><strong id="subtotal">$0.00</strong></div>
+      <small>Taxes and shipping calculated at checkout.</small>
+      <button class="gold-btn checkout" id="checkout">Proceed to checkout <span>→</span></button>
+    </div>
+  </aside>
+
+  <!-- Wishlist Drawer -->
+  <aside class="cart wishlist-drawer" id="wishlistDrawer">
+    <div class="cart-head">
+      <div>
+        <p class="eyebrow">YOUR SAVED ITEMS</p>
+        <h2>Wishlist <small id="wishDrawerCount">0</small></h2>
+      </div>
+      <button id="closeWishlist">×</button>
+    </div>
+
+    <div class="cart-list" id="wishlistList"></div>
+
+    <div class="cart-empty" id="wishlistEmpty">
+      <div>♥</div>
+      <h3>Your wishlist is empty</h3>
+      <p>Save items you love to find them easily later.</p>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
