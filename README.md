@@ -1,6 +1,6 @@
 <h1><strong>SHOPZONE</strong></h1>
 <p align="center">
-  <strong>A premium, luxury e-commerce interface built around high contrast, functional client-side mechanics, and product first UI design.</strong>
+  <h4><strong>A premium, luxury e-commerce interface built around high contrast, functional client-side mechanics, and product first UI design.</strong></h4>
 </p>
 
 <p align="center">
