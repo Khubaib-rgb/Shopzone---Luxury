@@ -21,7 +21,7 @@
 - **Client-Side Filtering**: Fast dynamic rendering that responds to real-time search queries, multi-category toggles, price range adjustments, rating thresholds, and availability flags.
 - **Off-Canvas Interactive Drawers**:
   - **Shopping Bag Drawer**: Real-time counter updates, auto-calculated subtotals, and seamless slide-in transitions.
-  - **Wishlist Drawer**: Instant persistence interface for bookmarked items.
+  - **Wishlist Drawer**: Interface for bookmarked items.
 ---
 
 ## 🛠 Tech Stack & Architecture
