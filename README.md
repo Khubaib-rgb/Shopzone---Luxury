@@ -1,4 +1,3 @@
-<img width="938" height="408" alt="image" src="https://github.com/user-attachments/assets/5a25a168-b0e7-4081-971c-83167aeead98" />
 
 # SHOPZONE — Gold Edition
 
@@ -13,7 +12,8 @@
 </p>
 
 ---
-
+<img width="938" height="408" alt="image" src="https://github.com/user-attachments/assets/5a25a168-b0e7-4081-971c-83167aeead98" />
+---
 ## ✦ Key Highlights
 
 - **Dark/Gold Luxury System**: Engineered using standard layout grids, modern web typography and CSS custom properties for cohesive luxury branding.
