@@ -1,5 +1,4 @@
-
-# SHOPZONE
+# <img src="https://github.com/user-attachments/assets/2aca9acf-1290-41bc-ad2f-fc1d86cb98d1" width="45" align="center" alt="ShopZone Logo"> SHOPZONE — Gold Edition
 
 <p align="center">
   <strong>A premium, luxury e-commerce interface built around high contrast, functional client-side mechanics, and product first UI design.</strong>
@@ -30,9 +29,6 @@
 - **Styling**: Vanilla CSS3 (Custom Properties, Flexbox, Grid, custom scrollbar styling)
 - **Scripting**: Modern ES6+ JavaScript (DOM Manipulation, Array transformation methods: `filter`, `sort`, `reduce`)
 - **Assets**: Inline Vector SVGs, Google Web Fonts, online images for collection.
-
----
-<img width="1264" height="1264" alt="Shopzone logo" src="https://github.com/user-attachments/assets/c8c408e9-38ec-4bd2-b761-1592e1800cbb" />
 
 ---
 ## 📂 Project Structure
