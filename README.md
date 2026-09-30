@@ -26,7 +26,7 @@
 - **Markup**: Semantic HTML5 (`<main>`, `<aside>`, `<section>`, `<header>`)
 - **Styling**: Vanilla CSS3 (Custom Properties, Flexbox, Grid, custom scrollbar styling)
 - **Scripting**: Modern ES6+ JavaScript (DOM Manipulation, Array transformation methods: `filter`, `sort`, `reduce`)
-- **Assets**: Inline Vector SVGs, Google Web Fonts
+- **Assets**: Inline Vector SVGs, Google Web Fonts, online images for collection.
 
 ---
 
