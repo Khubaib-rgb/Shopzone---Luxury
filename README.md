@@ -32,7 +32,9 @@
 - **Assets**: Inline Vector SVGs, Google Web Fonts, online images for collection.
 
 ---
+<img width="1264" height="1264" alt="Shopzone logo" src="https://github.com/user-attachments/assets/c8c408e9-38ec-4bd2-b761-1592e1800cbb" />
 
+---
 ## 📂 Project Structure
 
 ```text
