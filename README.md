@@ -1,5 +1,4 @@
-# <img src="https://github.com/user-attachments/assets/2aca9acf-1290-41bc-ad2f-fc1d86cb98d1" width="45" align="center" alt="ShopZone Logo"> SHOPZONE — Gold Edition
-
+# <img src="https://github.com/user-attachments/assets/2aca9acf-1290-41bc-ad2f-fc1d86cb98d1" width="40" height="40" align="middle" alt="ShopZone Logo"> SHOPZONE 
 <p align="center">
   <strong>A premium, luxury e-commerce interface built around high contrast, functional client-side mechanics, and product first UI design.</strong>
 </p>
