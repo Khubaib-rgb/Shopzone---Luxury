@@ -14,19 +14,17 @@
 
 ## ✦ Key Highlights
 
-- **Restrained Dark/Gold System**: Engineered using standard layout grids, modern web typography (`Playfair Display` and `DM Sans`), and CSS custom properties for cohesive luxury branding.
-- **Client-Side Filtering Pipeline**: Fast dynamic rendering that responds to real-time search queries, multi-category toggles, price range adjustments, rating thresholds, and availability flags.
+- **Dark/Gold Luxury System**: Engineered using standard layout grids, modern web typography and CSS custom properties for cohesive luxury branding.
+- **Client-Side Filtering**: Fast dynamic rendering that responds to real-time search queries, multi-category toggles, price range adjustments, rating thresholds, and availability flags.
 - **Off-Canvas Interactive Drawers**:
   - **Shopping Bag Drawer**: Real-time counter updates, auto-calculated subtotals, and seamless slide-in transitions.
   - **Wishlist Drawer**: Instant persistence interface for bookmarked items.
-- **Fully Responsive Architecture**: Dedicated mobile filter drawer trigger, overlay backdrop management, and fluid layout adjustments across all screen widths.
-
 ---
 
 ## 🛠 Tech Stack & Architecture
 
 - **Markup**: Semantic HTML5 (`<main>`, `<aside>`, `<section>`, `<header>`)
-- **Styling**: Vanilla CSS3 (Custom Properties, Flexbox, Grid, custom scrollbar styling, state animations)
+- **Styling**: Vanilla CSS3 (Custom Properties, Flexbox, Grid, custom scrollbar styling)
 - **Scripting**: Modern ES6+ JavaScript (DOM Manipulation, Array transformation methods: `filter`, `sort`, `reduce`)
 - **Assets**: Inline Vector SVGs, Google Web Fonts
 
@@ -35,6 +33,6 @@
 ## 📂 Project Structure
 
 ```text
-├── index.html        # Clean semantic markup structure
-├── style.css         # Visual design tokens, drawer states, layout grids
-└── script.js         # Reactive UI state, cart/wishlist logic, search pipeline
+├── index.html       
+├── style.css         
+└── script.js         
